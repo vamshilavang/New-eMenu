@@ -1,5 +1,6 @@
 //ProductView.js
 
+
 import React from 'react';
 import ExpandedProduct from './ExpandedProduct'
 
