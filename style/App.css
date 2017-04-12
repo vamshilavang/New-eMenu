@@ -1,0 +1,210 @@
+.default-margin-tp-btm {
+  margin: 10px 0
+}
+
+.r-panel {
+    margin: 24px -10px;
+    padding: 0px 20px 8px 19px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    text-align: left;
+}
+.r-panel h3{
+   text-transform: uppercase;
+   font-family: arial, helvetica, sans-serif;
+   font-size:21px;
+}
+
+.r-panel h3 input{
+   height: 17px;
+   width: 17px;
+}
+.input-group-addon {
+   background-color: #fff !important;   
+}
+.btn-cus{
+   background-color: #0987c1;
+   color: #fff;
+   text-transform: capitalize;
+   font-size: 22px;
+   padding: 15px 30px;
+}
+
+.cus-input{
+  width: 100%;
+}
+
+.cus-input input{
+  height: 50px;
+  font-size: 20px;
+}
+
+.cus-input .borderd{
+  border-radius: 5px !important;
+}
+
+.cus-payment .input-group-addon{
+   background-color:#eee; 
+}
+.cus-payment input{
+  background-color:#eee;
+}
+
+label {  
+  color: #b1adad !important;
+  margin-bottom: 0px !important;
+  font-family: arial, helvetica, sans-serif !important;
+  font-family: helvetica !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}
+
+.r-price {
+  color: gray;
+ font-size: medium;
+}
+.r-no-bottom-margin {
+  margin-bottom: 0px;
+}
+
+.r-product-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.r-checkbox-span {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.r-small-right-padding {
+  padding-right: 30px;
+}
+
+.body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.rootborder{
+  border: 1px solid #cfcfcf;
+}
+.acc{
+	 padding: 10px;
+    width: 100%;
+   }
+.accBody{
+   padding: 10px;
+  font-weight:bold;
+ border: 1px solid #cfcfcf;}
+
+.accHeader{
+	display: block;
+    padding: 10px;
+}
+
+div{
+	padding: 10px 0;
+}
+.labelheader{
+	font-weight: bold;
+    padding: 10px;
+}
+.separator {
+	border-bottom:1px solid grey;
+}
+
+.greyFont{
+	color:grey;
+    font-weight: 300;
+}
+
+.active{
+    /*display: block;*/
+    max-height: 500px;
+    overflow: hidden;   
+    transition: all 1s ease-in-out;
+}
+.inactive{
+    max-height: 0;
+    overflow: hidden;   
+    transition: all 1s ease-in-out;
+}
+.choices{
+    padding-right: 30px;
+}
+.pointer{
+    cursor: pointer;
+}
+.r-gray {
+  color: gray;
+  font-size: medium;
+}
+
+.r-no-bottom-margin {
+  margin-bottom: 0px;
+}
+
+.r-product-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.r-checkbox-span {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.r-small-right-padding {
+  padding-right: 30px;
+}
+
+.r-small-right-left-margin {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.r-checkbox-margin-top {
+  margin-top: 40px;
+}
+
+.anchor-pointer {
+  cursor: pointer;
+}
+
+.rcorners {
+    border-radius: 25px;
+    border: 1px solid gray;
+    padding: 20px;  
+}
+
+.r-small-bottom-margin {
+  margin-bottom: 10px;
+}
+
+.r-small-top-margin {
+  margin-top: 20px;
+}
+
+.r-bottom-no-padding {
+  padding-bottom: 0px;
+}
+
+.r-bottom-no-margin {
+  margin-bottom: 0px;
+}
+
+.r-top-no-margin {
+  margin-top: 0px;
+}
+
+.r-small-text {
+  font-size: 12px;
+}
+
+.r-small-text {
+  font-size: 13px;
+}
+
+.r-small-left-padding {
+  padding-left: 10px;
+}
+
+
