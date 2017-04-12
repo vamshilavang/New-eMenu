@@ -1,7 +1,3 @@
-/*.default-margin-tp-btm {
-  margin: 10px 0
-}*/
-
 .r-panel {
     margin: 24px -10px;
     padding: 0px 20px 8px 19px;
@@ -9,16 +5,16 @@
     border-radius: 5px;
     text-align: left;
 }
-/*.r-panel h3{
+.r-panel h3{
    text-transform: uppercase;
    font-family: arial, helvetica, sans-serif;
    font-size:21px;
-} */
+}
 
-.r-panel h3 input{
+/*.r-panel h3 input{
    height: 17px;
    width: 17px;
-}
+}*/
 .input-group-addon {
    background-color: #fff !important;   
 }
@@ -35,6 +31,7 @@
 }
 
 .cus-input input{
+  height: 50px;
   font-size: 20px;
 }
 
@@ -50,7 +47,7 @@
 }
 
 label {  
-  color: #b1adad !important;
+  /*color: #b1adad !important;*/
   margin-bottom: 0px !important;
   font-family: arial, helvetica, sans-serif !important;
   font-family: helvetica !important;
@@ -86,7 +83,7 @@ label {
   border: 1px solid #cfcfcf;
 }
 .acc{
-	 padding: 10px;
+   padding: 10px;
     width: 100%;
    }
 .accBody{
@@ -95,23 +92,23 @@ label {
  border: 1px solid #cfcfcf;}
 
 .accHeader{
-	display: block;
+  display: block;
     padding: 10px;
 }
 
 div{
-	padding: 10px 0;
+  padding: 10px 0;
 }
 .labelheader{
-	font-weight: bold;
+  font-weight: bold;
     padding: 10px;
 }
 .separator {
-	border-bottom:1px solid grey;
+  border-bottom:1px solid grey;
 }
 
 .greyFont{
-	color:grey;
+  color:grey;
     font-weight: 300;
 }
 
@@ -205,5 +202,31 @@ div{
 .r-small-left-padding {
   padding-left: 10px;
 }
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #d4caca
+}
 
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 5px solid #337ab7
+}
 

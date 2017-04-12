@@ -3,7 +3,7 @@ import Choice from './choices'
 
 const Question = (props) => {
     return (
-        <div className="greyFont">
+        <div >
             <div>{props.data.caption}</div>
             <div className="control-group">
                 {
