@@ -1,6 +1,6 @@
-.default-margin-tp-btm {
+/*.default-margin-tp-btm {
   margin: 10px 0
-}
+}*/
 
 .r-panel {
     margin: 24px -10px;
@@ -9,11 +9,11 @@
     border-radius: 5px;
     text-align: left;
 }
-.r-panel h3{
+/*.r-panel h3{
    text-transform: uppercase;
    font-family: arial, helvetica, sans-serif;
    font-size:21px;
-}
+} */
 
 .r-panel h3 input{
    height: 17px;
@@ -35,7 +35,6 @@
 }
 
 .cus-input input{
-  height: 50px;
   font-size: 20px;
 }
 
