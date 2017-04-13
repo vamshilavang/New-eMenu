@@ -215,7 +215,7 @@ input[type='radio']:after {
     visibility: visible;
     border: 2px solid #d4caca
 }
-
+/**radio button csss override*/
 input[type='radio']:checked:after {
     width: 15px;
     height: 15px;
@@ -229,4 +229,14 @@ input[type='radio']:checked:after {
     visibility: visible;
     border: 5px solid #337ab7
 }
-
+.emenuHead {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 0 3px 6px;
+}
+.nopadding-left{
+    padding-left: 0px !important;
+}
+.emenucol-head{
+    padding: 9px 10px ;
+}

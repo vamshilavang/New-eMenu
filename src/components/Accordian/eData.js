@@ -45,6 +45,7 @@ class Accordion extends React.Component {
                 })
 
         }
+        this.setState({"questions":this.state.questions});
         //console.log(this.data.eMenusecOne)
 
     }
@@ -63,14 +64,20 @@ class Accordion extends React.Component {
         const accordionToggle = this.props.active ? 'active' : 'inactive';
 
         return (
+            <div>
+            <div className="row">
+            <div className="col-xs-12 nopadding-left">
+             <strong className="col-xs-2 nopadding-left">eMenu</strong><span className="col-xs-2"><span>$</span><span>total</span></span></div>
+            </div>
             <div className="row rootborder">
-                {this.state.saveEMenu == false ? (<div className="col-xs-12" style={{ padding: '15px' }}>
-                    <strong >Required Provider Question</strong><strong style={{ float: 'right', cursor: 'pointer', textDecoration: 'underline', color: '#3f3fb5' }}
+                {this.state.saveEMenu == false ? (<div className="col-xs-12 emenucol-head">
+                    <span className="emenuHead">Required Provider Question</span><strong style={{ float: 'right', cursor: 'pointer', textDecoration: 'underline', color: '#3f3fb5' }}
                         onClick={this.editEMenu}>Edit</strong>
                 </div>) :
                     (<section className="acc">
-                        <div>
-                            <p>Required Provider Question</p>
+                        <p className="emenuHead">Required Provider Question</p>
+                        <div className="col-xs-12">
+
                             {
                                 this.state.questions.map((q, i) => {
                                     return <Question key={i + 'q'} data={q} qId={i + 'q'} events={this.eMenuOptionselect} />
@@ -80,6 +87,7 @@ class Accordion extends React.Component {
                         </div>
 
                     </section>)}
+            </div>
             </div>
         )
     }
