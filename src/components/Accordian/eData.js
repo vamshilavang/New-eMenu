@@ -67,11 +67,11 @@ class Accordion extends React.Component {
             <div>
             <div className="row">
             <div className="col-xs-12 nopadding-left">
-             <strong className="col-xs-2 nopadding-left">eMenu</strong><span className="col-xs-2"><span>$</span><span>total</span></span></div>
+             <strong className="col-xs-2 nopadding-left">eMenu</strong><span className="col-xs-2"><span>$</span><span>Total:</span></span></div>
             </div>
             <div className="row rootborder">
                 {this.state.saveEMenu == false ? (<div className="col-xs-12 emenucol-head">
-                    <span className="emenuHead">Required Provider Question</span><strong style={{ float: 'right', cursor: 'pointer', textDecoration: 'underline', color: '#3f3fb5' }}
+                    <span className="emenuHead">Required Provider Question</span><strong style={{ float: 'right', cursor: 'pointer', textDecoration: 'none', color: '#3f3fb5' }}
                         onClick={this.editEMenu}>Edit</strong>
                 </div>) :
                     (<section className="acc">

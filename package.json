@@ -8,9 +8,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.1",
     "css-loader": "^0.28.0",
     "react": "^15.5.3",
     "react-dom": "^15.5.3",
+    "redux-thunk": "^2.2.0",
     "style-loader": "^0.16.1"
   },
   "devDependencies": {

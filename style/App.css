@@ -1,20 +1,25 @@
+.App h4{
+ font-size: 22px;
+ margin-bottom: -2px;
+}
+
 .r-panel {
-    margin: 24px -10px;
-    padding: 0px 20px 8px 19px;
+    margin: 15px -10px;
+    padding: 10px;
     border: 1px solid #cfcfcf;
     border-radius: 5px;
     text-align: left;
 }
-.r-panel h3{
+.r-panel h4{
    text-transform: uppercase;
    font-family: arial, helvetica, sans-serif;
-   font-size:21px;
+   font-size: 16px;
 }
 
-/*.r-panel h3 input{
-   height: 17px;
+.r-panel h4 input{
+   height: 11px;
    width: 17px;
-}*/
+}
 .input-group-addon {
    background-color: #fff !important;   
 }
@@ -24,6 +29,7 @@
    text-transform: capitalize;
    font-size: 22px;
    padding: 15px 30px;
+   margin:3px;
 }
 
 .cus-input{
@@ -31,8 +37,8 @@
 }
 
 .cus-input input{
-  height: 50px;
-  font-size: 20px;
+  height: 30px;
+  font-size: 15px;
 }
 
 .cus-input .borderd{
@@ -40,10 +46,13 @@
 }
 
 .cus-payment .input-group-addon{
-   background-color:#eee; 
+   background-color:xeee; 
 }
 .cus-payment input{
-  background-color:#eee;
+  background-color:xeee;
+}
+.lessPad{
+  padding: 4px 0;
 }
 
 label {  
@@ -59,8 +68,8 @@ label {
   color: gray;
  font-size: medium;
 }
-.r-no-bottom-margin {
-  margin-bottom: 0px;
+.r-bottom-no-margin h3{
+ 
 }
 
 .r-product-row {
@@ -184,7 +193,7 @@ div{
 }
 
 .r-bottom-no-margin {
-  margin-bottom: 0px;
+  margin-bottom: 60px;
 }
 
 .r-top-no-margin {
@@ -215,7 +224,7 @@ input[type='radio']:after {
     visibility: visible;
     border: 2px solid #d4caca
 }
-/**radio button csss override*/
+
 input[type='radio']:checked:after {
     width: 15px;
     height: 15px;
